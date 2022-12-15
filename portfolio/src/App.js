@@ -43,7 +43,7 @@ function App() {
             and novel uses of game engines. 
             To learn more about my interdisciplinary projects,
             bridging computer science to art history, social science, 
-            and mathematics, please see my portfolio below. </h2>
+            and mathematics, please scroll down to see my portfolio below! </h2>
         </div>
       </div>
 
