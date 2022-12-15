@@ -1,6 +1,6 @@
 import "./Project.css"
 import React, {useState} from 'react'
-import Jacopino from "./jacopino";
+
 
 export default function Project({item, updateFunction}){
     
@@ -15,8 +15,7 @@ export default function Project({item, updateFunction}){
                         <h3>{item.name}</h3>
                         <p>{item.description}</p>
                     </div>
-                    <button><a href = "jacopino.html">View Project</a></button>
-                    {/* <Jacopino open={openModal}/> */}
+                    <a href = {item.projectPage}><button>View Project</button></a>
                 </div>  
             </div>
         </div>

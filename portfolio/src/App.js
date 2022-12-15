@@ -8,7 +8,7 @@ import React, {useState} from 'react'
 // Load project data
 projectData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
-
+  item.projectPage = process.env.PUBLIC_URL + "/ProjectPages/" + item.projectPage;
 })
 
 // CV link

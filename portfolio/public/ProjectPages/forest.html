@@ -1,0 +1,58 @@
+<html>
+    <h2>Visualization of Author Collaboration and Publication Relationships – Insight Engine 2.0</h2>
+            <h3>Context and Problem</h3>
+            <p>
+                In existing academic search platforms, users can look for papers about a certain topic, 
+                specific authors, and their publications. 
+                However, because search results in most platforms appear in a vertical list, 
+                users cannot gain deeper insight into the searched keyword such as influential authors 
+                with frequent collaborations in its relevant academic field.
+                <br><br>
+            </p>
+            <h3>Forest Model for Intuitive Academic Data Visualization</h3>
+            <p>
+                As a member of Duke’s Insight Engine team led by Prof. Bill Seaman, 
+                I wanted to build an advanced search tool that visualizes relationships among authors, 
+                publications, and research topics in ways that are easy for users to understand. 
+                After thinking about multiple ways to do so, I decided to adapt the form of a forest, 
+                which is familiar to most people.
+                <br><br>
+            </p>
+            <h3>Interface Design of the Forest Model</h3>
+            <video width = "500" height = "500" controls>
+                <source src = "./images/Tree_demo.mov">
+            </video>
+            <p>
+                The interface of the model receives from its users the name of an author whose 
+                publication and collaboration relationships they want to visualize. 
+                Then the interface shows the searched author as a tree in the center of the forest. 
+                Other authors who have published at least one paper with the author are visualized 
+                as other trees at varying distances from the central tree, 
+                depending on the number of the corresponding authors’ collaborations with the central author. 
+                Each tree also has different numbers of leaf clusters attached to it, 
+                depending on the number of publications the corresponding author published in the ACM journal. 
+                By entering the search tool’s explore mode, users can virtually walk around 
+                the generated forest and click different trees and their leaf clusters to see authors 
+                and publications they represent.
+                <br><br>
+            </p>
+            <h3>Conclusion</h3>
+            <p>
+                Presenting the model at an international-level conference in information science, 
+                the Theoretical and Foundational Problems in Information Studies conference, 
+                I introduced participants to a new use of the Unity game engine as 
+                a search tool and inspired them to use my forest model to represent different types of data. 
+                You can view my presentation <a href = "https://vimeo.com/608448162">here</a> and my extended abstract 
+                <a href = "https://tfpiscom.files.wordpress.com/2021/07/kwon.pdf">here</a>. 
+                I also started leading a group with two Ph.D. students to explore additional metaphors 
+                and add more interactive elements to the forest. 
+                We are seeking to model elements such as winds that represent research trends/directions. 
+                Using a game engine as our visualization platform is enabling us 
+                to explore innovative data visualization strategies, including multi-perspective views, 
+                physics engines, and 3D landscape qualities.
+                <br><br>
+                This project was particularly meaningful to me in that 
+                it enabled me to discover new uses of game engines. I also learned the imporance of sharing 
+                my product ideas with other people to discover the product's new potentials.
+            </p>
+</html>
