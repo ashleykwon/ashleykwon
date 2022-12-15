@@ -1,51 +1,66 @@
 <html>
-    <h2>AR-based Labeling for DNN Fine-tuning</h2>
-            
-    <h3>Context and Problem</h3>
-    <p>
-        Augmented reality (AR), a technology that superimposes virtual elements 
-        on a real-life view, has recently been integrated into object detection. 
-        Despite object detection models' increasing accuracies, 
-        humans still need to label images in their training datasets. 
-        This is a time-consuming process that involves manually drawing bounding boxes 
-        around specific objects in images and associating these boxes with labels.
-    </p>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href = "./css/project-page.css">
+    </head>
+    <body>
+    <div class = "project-content">
+        <div class = "project-title">
+            <h1 class = "display-1">AR-based Labeling for DNN Fine-tuning</h1>
+        </div>
+        <div class = "button-container">
+            <a href = "../index.html"><button>Back to Home</button></a>
+        </div>        
+        <h3>Context and Problem</h3>
+        <p>
+            Augmented reality (AR), a technology that superimposes virtual elements 
+            on a real-life view, has recently been integrated into object detection. 
+            Despite object detection models' increasing accuracies, 
+            humans still need to label images in their training datasets. 
+            This is a time-consuming process that involves manually drawing bounding boxes 
+            around specific objects in images and associating these boxes with labels.
+        </p>
+            <br><br>
+        <h3>AR-based Object Labeling</h3>
+        <p>
+            As a part of my senior thesis project in computer science under the supervision of 
+            Prof. Maria Gorlatova, I designed a smartphone AR application where a user 
+            and a fine-tuned object detection and segmentation model, 
+            Faster RCNN, collaboratively generate labels of lemur images 
+            to shorten the amount of labeling time. 
+            With the Faster RCNN model suggesting possible labels for lemurs detected 
+            from the smartphone’s camera, the user only needs to indicate, 
+            using buttons in the application's UI, 
+            whether the labels are correct and select the correct labels 
+            if the suggested ones are incorrect.
+            <br><br>
+        <h3>Reducing Latency in Label Generation</h3>
+        <img src="images/system_diagram.png" width = 80% height = 75%/>
+        <p>
+            To reduce the latency caused by running computation-heavy programs 
+            like inferences with Faster RCNN on a smartphone, 
+            I also built a pipeline that splits the label generation task
+            between a smartphone and an edge. 
+            In this pipeline, which I visualized above, the smartphone AR application sends captured frames to the edge. 
+            Stored in the edge is a program that takes the frames as 
+            inputs and generates labels of lemurs detected in the frames using 
+            a fine-tuned Faster RCNN model. The program sends the labels back to the smartphone application 
+            so that the application can display the suggested labels for the user to confirm.
+        </p>                
         <br><br>
-    <h3>AR-based Object Labeling</h3>
-    <p>
-        As a part of my senior thesis project in computer science under the supervision of 
-        Prof. Maria Gorlatova, I designed a smartphone AR application where a user 
-        and a fine-tuned object detection and segmentation model, 
-        Faster RCNN, collaboratively generate labels of lemur images 
-        to shorten the amount of labeling time. 
-        With the Faster RCNN model suggesting possible labels for lemurs detected 
-        from the smartphone’s camera, the user only needs to indicate, 
-        using buttons in the application's UI, 
-        whether the labels are correct and select the correct labels 
-        if the suggested ones are incorrect.
-        <br><br>
-    <h3>Reducing Latency in Label Generation</h3>
-    <img src="images/system_diagram.png" width = 80% height = 75%/>
-    <p>
-        To reduce the latency caused by running computation-heavy programs 
-        like inferences with Faster RCNN on a smartphone, 
-        I also built a pipeline that splits the label generation task
-        between a smartphone and an edge. 
-        In this pipeline, which I visualized above, the smartphone AR application sends captured frames to the edge. 
-        Stored in the edge is a program that takes the frames as 
-        inputs and generates labels of lemurs detected in the frames using 
-        a fine-tuned Faster RCNN model. The program sends the labels back to the smartphone application 
-        so that the application can display the suggested labels for the user to confirm.
-    </p>                
-    <br><br>
-    <h3>Conclusion</h3>
-    <p>
-        It is commonly known that recently developed technologies such as 
-        object detection often require costly electronic devices with large storage spaces 
-        and computing power. 
-        This project started my interest in making such technologies 
-        more readily available to users of lower end but more widespread 
-        electronic devices like smartphones. Through this project, I also 
-        earned the honor of graduating from Duke University with <a href = "https://www.cs.duke.edu/news/articles/4144">high distinction in computer science</a>.
-    </p>
+        <h3>Conclusion</h3>
+        <p>
+            It is commonly known that recently developed technologies such as 
+            object detection often require costly electronic devices with large storage spaces 
+            and computing power. 
+            This project started my interest in making such technologies 
+            more readily available to users of lower end but more widespread 
+            electronic devices like smartphones. Through this project, I also 
+            earned the honor of graduating from Duke University with <a href = "https://www.cs.duke.edu/news/articles/4144">high distinction in computer science</a>.
+        </p>
+        <div class = "button-container">
+            <a href = "../index.html"><button>Back to Home</button></a>
+        </div>
+    </div>
+</body>
 </html>
