@@ -24,10 +24,23 @@ video{
 
 h3{
     font-size: 3em;
+    margin-top: 1em;
 }
 
 p{
     font-size: 1.7em;
+}
+
+ul{
+    font-size: 1.7em;
+}
+
+ol{
+    font-size: 1.7em;
+}
+
+.bolded{
+    font-weight: bold;
 }
 
 button{
@@ -89,4 +102,8 @@ img{
 .jacopino-video{
     width: 70em;
     height:40em;
+}
+
+.persona-subtitle{
+    margin-top: 1em;
 }

@@ -40,20 +40,36 @@
         "year": 2021
     },
     {
-        "name": "Poly-association Generator Using a Knowledge Graph Structure",
-        "description": "A website that helps users visualize connections between two or more concepts related to diverse disciplines, including art history and philosophy",
-        "image": "images/bi-sociation.png",
-        "projectPage": "bi-sociation.html",
-        "tag": "data-visualization",
-        "year": 2021
-    },
-    {
         "name": "Contemporary Art Recommendation System",
         "description": "A website that recommends paintings of contemporary artists that were born in the 1980s or later based on users' preferences in extrinsic and intrinsic characteristics of artworks to raise awareness about emerging artists' work",
         "image": "images/artrec.png",
         "projectPage": "artrec.html",
         "tag": "art-history",
         "year": 2021
+    },
+    {
+        "name": "Personas and Storyboarding",
+        "description": "User interaction and experience study of a coffee machine in Brown's Center for Information Technology (CIT)",
+        "image": "images/persona.png",
+        "projectPage": "persona.html",
+        "tag": "UI-UX",
+        "year": 2022
+    },
+    {
+        "name": "Redesigning a Train Travel Website",
+        "description": "Redesigning project of a website that introduced worldwide train trip information to improve its usability, learnability, efficiency, and accessibility",
+        "image": "images/redesign.png",
+        "projectPage": "redesign.html",
+        "tag": "UI-UX",
+        "year": 2022
+    },
+    {
+        "name": "React Development",
+        "description": "Design project using React where I designed a website for an online bakery with sort, filter, display functionalities",
+        "image": "images/development.png",
+        "projectPage": "development.html",
+        "tag": "UI-UX",
+        "year": 2022
     }
 
 ]

@@ -1,0 +1,202 @@
+.navbar{
+    background-color: #0500FA;
+    color: white;
+    font-size:1.5em;
+    display:flex;
+    justify-content: space-around;
+    align-items: left;
+
+}
+
+.navbar-list{
+    list-style-type: none;
+}
+
+.navbar-list .navbar-item{
+    display: inline-block;
+    padding-right:1.5em;
+}
+
+.menu{
+    display:none;
+}
+
+.menu-line{
+    width: 1.5em;
+    height: 0.1em;
+    background-color: white;
+    margin-bottom:0.3em;
+}
+
+/*I referenced a tutorial titled "FLEXBOX Responsive Navbar (with Logo) 
+| Navigation Menu Bar with HTML, CSS & JavaScript" by Cem Eygi Media on YouTube
+  Link: https://www.youtube.com/watch?v=mh36Kts-wX8*/
+h1{
+    padding:2rem;
+}
+
+.general-content{
+    padding-bottom: 5em;
+}
+
+.arrival{
+    border: 3px solid;
+    appearance:none;
+    -webkit-appearance: none;
+    border-color: #FA03C3;  
+    color:#FA03C3;  
+    background-color: white;
+    width:7em;
+    height:1.7em;
+    font-size:1.5em;
+    padding-left:0.25em;
+}
+
+.departure{
+    border: 3px solid;
+    appearance:none;
+    -webkit-appearance: none;
+    border-color: #8866D1; 
+    color: #8866D1; 
+    background-color: white;
+    width:7em;
+    height:1.7em;
+    font-size:1.5em;
+    padding-left:0.25em;
+}
+
+.travel-type-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+input[type = "checkbox"]{
+    appearance:none;
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    border: 3px solid #FA6C05;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+label{
+    color:#FA6C05; 
+    font-size:1.5em;
+    display:flex;
+    padding-left: 0.25em;
+}
+
+input[type = "checkbox"]:after{
+    font-size:1.5em;
+    color: white;
+}
+
+input[type = "checkbox"]:checked{
+    background-color:#FA6C05; 
+}
+
+input[type = "checkbox"]:checked:after{
+    display: block; 
+}
+
+
+.travel-content{
+    padding-left: 2.5em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.section-title{
+    padding-left: 2em;
+}
+
+.trip-container{
+    display:flex;
+    align-items:top;
+    padding-bottom: 3em;
+    border: 3px solid #0393FB;
+    border-radius: 10px;
+    height: 15em;
+    width: 40em;
+    margin-bottom: 5em;
+    margin-right: 3em;
+}
+
+.travel-description{
+    font-size: 1.3em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+button{
+    width: 7em;
+    border: 3px solid #0500FA;
+    color: #0500FA;
+    border-radius: 10px;
+    font-size: 1.5em;
+    appearance:none;
+    -webkit-appearance: none;
+    text-align: center;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #0393FB;
+}
+
+img{
+    padding: 1em;
+}
+
+
+
+@media all and (max-width:768px){
+    .navbar{
+        flex-direction:column;
+    }
+
+    .navbar-list{
+        list-style-type: none;
+        width: 100%;
+        text-align:left;
+        display: none;
+    }
+    .navbar-list .navbar-item{
+        display: block;
+        padding-right:1.5em;
+        border-top: 0.1em solid white;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .menu{
+        display:block;
+    }
+
+    .active{
+        display:block;
+    }
+
+    img{
+        width: 3rem;
+    }
+
+    .travel-description{
+        font-size: 0.5em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .trip-container{
+        height: 15em;
+        width: 30em;
+    }
+
+
+}
