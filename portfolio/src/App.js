@@ -12,7 +12,7 @@ projectData.forEach((item) => {
 })
 
 // CV link
-var cvLink =  process.env.PUBLIC_URL + "/resources/CV_Hojung_Kwon.pdf"
+var cvLink =  process.env.PUBLIC_URL + "/resources/CV_Happy_Sifaka.pdf"
 
 function App() {
   const [openModal, setOpenModal] = useState(false)
@@ -34,7 +34,7 @@ function App() {
         </nav>
 
         <div class = "title-content" id = "title-page">
-          <h1 class = "display-1 text-light">Ashley Hojung Kwon</h1>
+          <h1 class = "display-1 text-light">Happy Sifika</h1>
           <h2 class = "text-light">I am a first-year computer science PhD student at Brown University working under the supervision of 
             Prof. James Tompkin. 
             Previously, I received my undergraduate degrees at Duke University in computer science (BS) 
