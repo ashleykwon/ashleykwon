@@ -25,7 +25,7 @@
     },
     {
         "name": "AR-based Labeling for DNN Fine-tuning",
-        "description": "A smartphone AR application where a user and a fine-tuned Faster RCNN model collaboratively generate image labels for a training dataset for a deep neural network",
+        "description": "Smartphone AR application where a user and a fine-tuned Faster RCNN model collaboratively generate image labels for a training dataset for a deep neural network",
         "image": "images/AR.png",
         "projectPage": "ar.html",
         "tag": "AR-VR",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Visualization of Author Collaboration and Publication Relationships – Insight Engine 2.0",
-        "description": "An interface built with the Unity game engine that represents author collaboration relationships and publications data extracted from more than 2 million papers published in the ACM journal until 2016",
+        "description": "Interface built with the Unity game engine that represents author collaboration relationships and publications data extracted from more than 2 million papers published in the ACM journal until 2016",
         "image": "images/forest.png",
         "projectPage": "forest.html",
         "tag": "data-visualization",
@@ -41,35 +41,10 @@
     },
     {
         "name": "Contemporary Art Recommendation System",
-        "description": "A website that recommends paintings of contemporary artists that were born in the 1980s or later based on users' preferences in extrinsic and intrinsic characteristics of artworks to raise awareness about emerging artists' work",
+        "description": "Website that recommends paintings of contemporary artists that were born in the 1980s or later based on users' preferences in extrinsic and intrinsic characteristics of artworks to raise awareness about emerging artists' work",
         "image": "images/artrec.png",
         "projectPage": "artrec.html",
         "tag": "art-history",
         "year": 2021
-    },
-    {
-        "name": "Personas and Storyboarding",
-        "description": "User interaction and experience study of a coffee machine in Brown's Center for Information Technology (CIT)",
-        "image": "images/persona.png",
-        "projectPage": "persona.html",
-        "tag": "UI-UX",
-        "year": 2022
-    },
-    {
-        "name": "Responsive Redesign",
-        "description": "Redesigning project of a website that introduced worldwide train trip information to improve its usability, learnability, efficiency, and accessibility",
-        "image": "images/redesign.png",
-        "projectPage": "redesign.html",
-        "tag": "UI-UX",
-        "year": 2022
-    },
-    {
-        "name": "React Development",
-        "description": "Design project using React where I designed a website for an online bakery with sort, filter, display functionalities",
-        "image": "images/development.png",
-        "projectPage": "development.html",
-        "tag": "UI-UX",
-        "year": 2022
     }
-
 ]

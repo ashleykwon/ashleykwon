@@ -29,12 +29,21 @@
                 movement and the mouse for viewpoint movement. An aerial view of one of the games we used 
                 is shown on the left in the figure below.</p>
                 <div class = "image-container">
-                    <img class = "vr-img" src="../images/vr.png"/>
+                    <img class = "vr-img" style = "width:50em;" src="../images/vr.png"/>
                 </div>
                 <p>We also added a script to each game that collects users' coordinate and viewpoint orientation 
                 data for each frame in the VR games. When plotted, users' trajectories collected in a game look like the 
                 image on the right in the figure above.
-                Using these games, we obtained movement data from 15+ users collected over 240 minutes.</p>
+                Using these games, we obtained movement data from 15+ users collected over 240 minutes. 
+                <br><br>
+                Example entries of data collected from one game, all of which are saved in one text file per one user 
+                appears as in the screenshot below. x, y, and z represent the user's coordinate in the game and 
+                alpha, beta, and gamma represent the user's viewpoint orientation. 
+                One line in the text file corresponds to the user's coordinate and viewpoint orientation 
+                at a particular time stamp:</p>
+                <div class = "image-container">
+                    <img  style = "width:30em;" src="../images/vr-data.png"/>
+                </div>
 
             <h3>Conclusion</h3>
             <p>
@@ -42,7 +51,7 @@
                 which, to our best knowledge, is the first one to characterize user movements in VR systems in 
                 various electronic devices, including a desktop computer. 
                 We reported our discoveries and datasets in a conference paper, 
-                <a href = "./anonymized.html">VR Viewport Pose Model for Quantifying and Exploiting Frame Correlations</a>,
+                <a href = "https://arxiv.org/pdf/2201.04060.pdf">VR Viewport Pose Model for Quantifying and Exploiting Frame Correlations</a>,
                     which was presented at the IEEE INFOCOM in 2022.
                 <br><br>
                 While interacting users with different levels of exposure to VR technologies 
@@ -51,7 +60,6 @@
                 This project inspired me to make cutting-edge technologies accessible to diverse groups of people, 
                 including those that have never had any previous interactions with them.
             </p>  
-            <!--Paper: https://arxiv.org/pdf/2201.04060.pdf -->
             <div class = "button-container">
                 <a href = "../index.html"><button>Back to Home</button></a>
             </div>

@@ -12,10 +12,10 @@ projectData.forEach((item) => {
 })
 
 // CV link
-var cvLink =  process.env.PUBLIC_URL + "/resources/CV_Happy_Sifaka.pdf"
+var cvLink =  process.env.PUBLIC_URL + "/resources/CV_Hojung_Kwon.pdf"
 
 function App() {
-  const [openModal, setOpenModal] = useState(false)
+  // const [openModal, setOpenModal] = useState(false)
 
   return (
     <div className = "App">      
@@ -34,8 +34,8 @@ function App() {
         </nav>
 
         <div class = "title-content" id = "title-page">
-          <h1 class = "display-1 text-light">Happy Sifika</h1>
-          <h2 class = "text-light">I am a first-year computer science PhD student at Brown University working under the supervision of 
+          <h1 class = "display-1 text-light">Hojung (Ashley) Kwon</h1>
+          <h3 class = "text-light">I am a first-year computer science PhD student at Brown University working under the supervision of 
             Prof. James Tompkin. 
             Previously, I received my undergraduate degrees at Duke University in computer science (BS) 
             and art history (AB). My research interests include augmented reality (AR) and 
@@ -43,14 +43,14 @@ function App() {
             and novel uses of game engines. 
             To learn more about my interdisciplinary projects,
             bridging computer science to art history, social science, 
-            and mathematics, please scroll down to see my portfolio below! </h2>
+            and mathematics, please scroll down to see my portfolio below! </h3>
         </div>
       </div>
 
       <div id = "portfolio-page">
         <h1 class = "display-1 section-title">Portfolio</h1>
         {projectData.map((item, index) => (
-          <Project item = {item} updateFunction = {setOpenModal}/>
+          <Project item = {item}/>
         ))}
       </div>
      

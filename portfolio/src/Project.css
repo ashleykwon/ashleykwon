@@ -1,6 +1,6 @@
 img{
-    height: 25em;
-    width: 25em;
+    height: 80%;
+    width: 82%;
     margin: 1em;
     border-radius:0.5em;
     vertical-align: middle;
@@ -9,8 +9,8 @@ img{
 .project-card{
     margin-top:5em;
     margin-bottom:5em;
-    margin-left:20em;
-    margin-right:20em;
+    margin-left:10em;
+    margin-right:10em;
     padding-left:2em;
     padding-right: 2em;
     background-color: #deeff5;
@@ -57,3 +57,10 @@ button:hover{
     border-radius: 0.5em;
     box-shadow: 0.2em 0.2em 0.5em rgba(0,0,0,0.2)
 }
+
+
+@media all and (max-width: 480px) {
+    img {
+      width: 3rem;
+    }
+  }

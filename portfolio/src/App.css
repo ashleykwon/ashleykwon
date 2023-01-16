@@ -35,14 +35,18 @@
 }
 
 .title-content{
-  padding-top: 20em;
+  padding-top: 15em;
   padding-bottom: 20em;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 10em;
+  padding-right: 10em;
+
+}
+.title-content h1{
+  vertical-align: middle;
 }
 
 h1{
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   font-size: 5em;
   font-weight: bold;
 
@@ -65,7 +69,7 @@ h1{
 
 .navbar-nav{
   background-color: white;
-  margin-top: 1em;
+  margin-top: 1.5em;
   border-radius: 0.5em;
   color:#08629a;
   border-style: solid;
@@ -98,3 +102,12 @@ a.nav-link{
     transform: rotate(360deg);
   }
 }
+
+
+
+@media all and (max-width:768px){
+  img{
+    width: 30%;
+  }
+}
+

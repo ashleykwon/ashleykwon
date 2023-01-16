@@ -1,8 +1,8 @@
 .project-content{
     margin-top: 5em;
     margin-bottom: 10em;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 .project-title{
@@ -28,15 +28,15 @@ h3{
 }
 
 p{
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 ul{
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 ol{
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .bolded{
@@ -47,7 +47,7 @@ button{
     background: transparent;
     border: none;
     box-shadow: none;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color:#08629a;
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -89,7 +89,7 @@ img{
     height: auto;
 }
 .forest-vid{
-    width:30em;
+    width:50em;
     height: auto;
     border-radius: 1em;
 }

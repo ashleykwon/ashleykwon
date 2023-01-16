@@ -1,12 +1,11 @@
 import "./Project.css"
-import React, {useState} from 'react'
 
 
-export default function Project({item, updateFunction}){
+export default function Project({item}){
     
     return(
         <div class = "project-card">
-            <div class = "row">
+            <div class = "row project-card-content">
                 <div class = "col-6 d-flex justify-content-center project-image">
                     <img src = {item.image} alt = {item.name}/>
                 </div>
