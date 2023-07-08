@@ -12,7 +12,7 @@ projectData.forEach((item) => {
 })
 
 // CV link
-var cvLink =  process.env.PUBLIC_URL + "/resources/CV_Hojung_Kwon.pdf"
+var cvLink =  process.env.PUBLIC_URL + "/resources/Hojung_Ashley_Kwon_CV.pdf"
 
 function App() {
   // const [openModal, setOpenModal] = useState(false)
@@ -35,7 +35,7 @@ function App() {
 
         <div class = "title-content" id = "title-page">
           <h1 class = "display-1 text-light">Hojung (Ashley) Kwon</h1>
-          <h3 class = "text-light">I am a first-year computer science PhD student at Brown University working under the supervision of 
+          <h3 class = "text-light">I am a computer science PhD student at Brown University working under the supervision of 
             Prof. James Tompkin. 
             Previously, I received my undergraduate degrees at Duke University in computer science (BS) 
             and art history (AB). My research interests include augmented reality (AR) and 
